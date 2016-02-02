@@ -11,7 +11,7 @@ import java.io.InputStream;
 /**
  * 通过反射, 使用BitmapRegionDecoder, 该类在API 10提供
  * 
- * @author SinaDev
+ * @author doshest
  */
 public class BitmapRegionDecoderUtils {
     private static Reflection mReflection = new Reflection();

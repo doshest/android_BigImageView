@@ -841,11 +841,13 @@ public class PicInfo extends JsonDataObject implements Serializable {
         return saveDir;
     }
 
+    // TODO 应该是中等图
     public String getBmiddleFilePath(Context context, boolean checkExist) {
         String saveDir = Utils.getPictureImgSaveDir(context);
         return saveDir;
     }
 
+    // TODO 应该是大图
     public String getLargeFilePath(Context context, boolean checkExist) {
         String saveDir = Utils.getPictureImgSaveDir(context);
         return saveDir;

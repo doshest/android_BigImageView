@@ -34,7 +34,7 @@ import java.io.File;
 /**
  * 正文页大图view，支持分块加载显示。 由于需要分开加载所以不能用默认加载逻辑，默认逻辑会把整个图全部加载到内存
  * 
- * @author nieyu2
+ * @author doshest
  */
 @SuppressLint("NewApi")
 public class BigImageView extends ImageView {
@@ -397,7 +397,7 @@ public class BigImageView extends ImageView {
     /**
      * 分块图片管理器，管理已经加载的图片块，并根据视口viewport变化，更新图片块。
      * 
-     * @author NIEYU2
+     * @author doshest
      */
     private class ChipBmps {
         /**
